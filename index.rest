@@ -1,0 +1,17 @@
+### Filtrar por precio máximo
+GET http://127.0.0.1:3000/joyas/filtros?precio_max=20000
+Content-Type: application/json
+
+
+### Filtrar por precio mínimo
+GET http://127.0.0.1:3000/joyas/filtros?precio_min=15000
+Content-Type: application/json
+
+### Filtrar por categoría
+GET http://127.0.0.1:3000/joyas/filtros?categoria=collar
+Content-Type: application/json
+
+
+### Filtrar por metal
+GET http://127.0.0.1:3000/joyas/filtros?metal=oro
+Content-Type: application/json
